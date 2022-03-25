@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Smith Residence Hall",
+    "neighbors": ["College Park Apartments", "Ogg Residence Hall", "Asian Midway Foods"],
+    "distances": [2, 3, 10]
+  },
+  {
+    "name": "Ogg Residence Hall",
+    "neighbors": ["Smith Residence Hall", "Sellery Residence Hall", "Witte Residence Hall"],
+    "distances": [3, 1, 3]
+  },
+  {
+    "name": "Sellery Residence Hall",
+    "neighbors": ["Ogg Residence Hall", "Witte Residence Hall", "Noland Zoology Building", "Lucky Apartments"],
+    "distances": [1, 2, 3, 3]
+  },
+  {
+    "name": "Noland Zoology Building",
+    "neighbors": ["Sellery Residence Hall", "Chemistry Building","Wendt Commons", "College Park Apartments", "Union South"],
+    "distances": [3, 2, 3, 6, 2]
+  },
+  {
+    "name": "Asian Midway Foods",
+    "neighbors": ["Smith Residence Hall", "College Park Apartments"],
+    "distances": [10, 9]
+  },
+  {
+    "name": "Witte Residence Hall",
+    "neighbors": ["Ogg Residence Hall", "Sellery Residence Hall", "Lucky Apartments"],
+    "distances": [3, 2, 2]
+  },
+  {
+    "name": "Chemistry Building",
+    "neighbors": ["Noland Zoology Building", "Sterling Hall", "Lucky Apartments", "Union South"],
+    "distances": [2, 2, 4, 3]
+  },
+  {
+    "name": "Lucky Apartments",
+    "neighbors": ["Witte Residence Hall", "Sellery Residence Hall","Chemistry Building"],
+    "distances": [2, 3, 4]
+  },
+  {
+    "name": "Sterling Hall",
+    "neighbors": ["Chemistry Building"],
+    "distances": [2]
+  },
+  {
+    "name": "Wendt Commons",
+    "neighbors": ["Noland Zoology Building", "Union South"],
+    "distances": [3, 1]
+  },
+  {
+    "name": "College Park Apartments",
+    "neighbors": ["Smith Residence Hall", "Noland Zoology Building", "Asian Midway Foods"],
+    "distances": [2, 6, 9]
+  },
+  {
+    "name": "Union South",
+    "neighbors": ["Noland Zoology Building", "Wendt Commons", "Chemistry Building"],
+    "distances": [2, 1, 3]
+  }
+]

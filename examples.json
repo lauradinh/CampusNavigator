@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Park Place",
+    "neighbors": ["Boardwalk", "Riverdale", "Sim City"],
+    "distances": [2, 42, 52]
+  },
+  {
+    "name": "Boardwalk",
+    "neighbors": ["Park Place", "Sim City"],
+    "distances": [2, 300]
+  },
+  {
+    "name": "Sim City",
+    "neighbors": ["Boardwalk", "Riverdale"],
+    "distances": [300, 42]
+  },
+  {
+    "name": "Isolation Town",
+    "neighbors": [],
+    "distances": []
+  },
+  {
+    "name": "Riverdale",
+    "neighbors": ["Park Place"],
+    "distances": [42]
+  }
+]
